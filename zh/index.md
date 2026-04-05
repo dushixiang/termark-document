@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Redirecting
+title: 跳转中
 outline: false
 head:
   - - meta
@@ -16,11 +16,11 @@ const router = useRouter()
 
 onMounted(() => {
   if (inBrowser) {
-    router.go(withBase('/usage/'), { replace: true })
+    router.go(withBase('/zh/usage/'), { replace: true })
   }
 })
 </script>
 
-# Redirecting to the documentation
+# 正在跳转到使用文档
 
-If the page does not redirect automatically, click [continue to the docs](./usage/).
+如果没有自动跳转，请点击 [继续访问使用文档](./usage/)。

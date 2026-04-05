@@ -2,14 +2,14 @@
 outline: false
 ---
 
-# 使用文档
+# Documentation
 
-这里集中维护 Termark 的使用说明、功能配置和常见操作指引。
+This section contains Termark usage guides, feature configuration, and common operation references.
 
-## 当前文档
+## Available pages
 
-- [SFTP 目录跟随配置](/usage/sftp-cwd-tracking)
+- [SFTP CWD Tracking](./sftp-cwd-tracking)
 
-## 后续规划
+## Notes
 
-后续可以继续在当前目录下新增文档页面，并在侧边栏中补充对应入口，无需再调整整体导航结构。
+Add new pages under this directory and then register them in the sidebar when needed.
