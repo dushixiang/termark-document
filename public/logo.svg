@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- 背景 -->
+    <rect width="256" height="256" rx="48" fill="#0F172A"/>
+
+    <!-- T（等粗结构） -->
+    <g transform="translate(128 128) scale(0.80) rotate(-8) translate(-128 -128)" fill="#38BDF8">
+
+        <!-- 横 -->
+        <rect x="32" y="64" width="192" height="36"/>
+
+        <!-- 竖（与横等粗） -->
+        <rect x="110" y="64" width="36" height="160"/>
+
+    </g>
+
+</svg>
