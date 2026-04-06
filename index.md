@@ -1,26 +1,9 @@
 ---
 layout: page
-title: Redirecting
+title: Termark
 outline: false
 head:
   - - meta
     - http-equiv: refresh
       content: 0;url=./usage/
 ---
-
-<script setup>
-import { onMounted } from 'vue'
-import { inBrowser, useRouter, withBase } from 'vitepress'
-
-const router = useRouter()
-
-onMounted(() => {
-  if (inBrowser) {
-    router.go(withBase('/usage/'), { replace: true })
-  }
-})
-</script>
-
-# Redirecting to the documentation
-
-If the page does not redirect automatically, click [continue to the docs](./usage/).

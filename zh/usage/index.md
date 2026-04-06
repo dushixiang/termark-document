@@ -1,15 +1,9 @@
 ---
+layout: page
+title: 使用文档
 outline: false
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 0;url=./sftp-cwd-tracking
 ---
-
-# 使用文档
-
-这里集中维护 Termark 的使用说明、功能配置和常见操作指引。
-
-## 当前文档
-
-- [SFTP 目录跟随配置](./sftp-cwd-tracking)
-
-## 说明
-
-后续可以继续在当前目录下新增文档页面，并在侧边栏中补充对应入口。
