@@ -30,6 +30,7 @@ export default defineConfig({
             {
               text: 'Documentation',
               items: [
+                { text: 'Windows Portable Mode', link: '/usage/windows-portable' },
                 { text: 'SFTP CWD Tracking', link: '/usage/sftp-cwd-tracking' }
               ]
             }
@@ -61,6 +62,7 @@ export default defineConfig({
             {
               text: '使用文档',
               items: [
+                { text: 'Windows 便携版制作', link: '/zh/usage/windows-portable' },
                 { text: 'SFTP 目录跟随配置', link: '/zh/usage/sftp-cwd-tracking' }
               ]
             }

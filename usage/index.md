@@ -5,5 +5,5 @@ outline: false
 head:
   - - meta
     - http-equiv: refresh
-      content: 0;url=./sftp-cwd-tracking
+      content: 0;url=./windows-portable
 ---
