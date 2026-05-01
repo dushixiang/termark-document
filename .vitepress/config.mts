@@ -23,7 +23,8 @@ export default defineConfig({
             themeConfig: {
                 logo,
                 nav: [
-                    {text: 'Docs', link: '/usage/'}
+                    {text: 'Docs', link: '/usage/'},
+                    {text: 'Changelog', link: '/changelog'}
                 ],
                 sidebar: {
                     '/usage/': [
@@ -31,6 +32,14 @@ export default defineConfig({
                             text: 'Documentation',
                             items: [
                                 {text: 'SFTP CWD Tracking', link: '/usage/sftp-cwd-tracking'}
+                            ]
+                        }
+                    ],
+                    '/changelog': [
+                        {
+                            text: 'Release Notes',
+                            items: [
+                                {text: 'Changelog', link: '/changelog'}
                             ]
                         }
                     ]
@@ -55,6 +64,7 @@ export default defineConfig({
                 logo,
                 nav: [
                     {text: '使用文档', link: '/zh/usage/'},
+                    {text: '更新日志', link: '/zh/changelog'},
                     {text: '博客', link: '/zh/blog/wechat-promo-article'}
                 ],
                 sidebar: {
@@ -63,6 +73,14 @@ export default defineConfig({
                             text: '使用文档',
                             items: [
                                 {text: 'SFTP 目录跟随配置', link: '/zh/usage/sftp-cwd-tracking'}
+                            ]
+                        }
+                    ],
+                    '/zh/changelog': [
+                        {
+                            text: '更新日志',
+                            items: [
+                                {text: '更新日志', link: '/zh/changelog'}
                             ]
                         }
                     ],
