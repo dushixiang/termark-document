@@ -7,6 +7,21 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.2
+
+### Fixed
+
+- Fixed incorrect prompt when canceling a download.
+- SFTP delete now succeeds silently when the target file does not exist.
+
+### Changed
+
+- Sidebar width is now stored on the frontend.
+
+### Removed
+
+- Removed trial limitations.
+
 ## v1.0.1
 
 ### Added
