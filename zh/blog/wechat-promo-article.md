@@ -242,7 +242,3 @@ Termark 还在持续迭代。
 如果你也经常和服务器打交道，欢迎试试，也欢迎反馈你真实的使用场景。很多功能不是凭空想出来的，都是从日常工作里一点点长出来的。
 
 官网：<https://termark.app>
-
-关注公众号发送「加群」，加入讨论群，获取最新动态。
-
-![gongzhonghao.jpg](images/gongzhonghao.jpg)
