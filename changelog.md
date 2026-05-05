@@ -7,6 +7,25 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.3
+
+### Added
+
+- Added file size display to the update dialog.
+- Added support for custom terminal themes.
+
+### Fixed
+
+- Fixed an issue where terminal reconnection could get stuck in mouse mode in special cases.
+- Fixed an issue where private key credentials with passphrases could not be used.
+- Fixed left-side alignment in fullscreen mode on Mac.
+
+### Changed
+
+- Unified file size formatting.
+- Improved the private key credential creation flow.
+- Improved AI settings.
+
 ## v1.0.2
 
 ### Fixed
