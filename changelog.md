@@ -7,6 +7,26 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.4
+
+### Added
+
+- Added session recording.
+- Added a terminal context menu.
+- Added cursor style configuration.
+- Command snippets now support sorting and configurable automatic execution.
+
+### Fixed
+
+- Fixed an issue where split-screen shortcuts did not work.
+- Fixed an issue where serial port resources were not released.
+
+### Changed
+
+- Improved shortcut text.
+- Improved split-screen behavior.
+- Improved the Windows/Linux exit confirmation UI.
+
 ## v1.0.3
 
 ### Added
