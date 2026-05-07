@@ -7,6 +7,41 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.5
+
+### Added
+
+- Added support for syncing custom logos incrementally.
+- Added a host remark field.
+- Added optional SSH keepalive configuration.
+- Added terminal tab close options.
+- Added regular expression support for terminal keyword highlights.
+- Added SFTP copy path menu actions.
+- Added support for pressing Enter in the batch command input to execute commands.
+- Asset tree tooltips now show usernames.
+
+### Fixed
+
+- Fixed terminal copy and paste shortcuts.
+- Fixed an issue where SFTP download renaming did not take effect.
+- Fixed multi-select SFTP drag preview behavior.
+- Fixed an issue where terminal panes could be unmounted when splitting.
+- Fixed AI settings refresh before each prompt.
+- Fixed unsupported locale handling.
+- Fixed long-name overflow in the batch asset selection dialog.
+- Fixed SFTP asset picker width constraints.
+- Fixed dialog overlay clicks closing dialogs unexpectedly.
+
+### Changed
+
+- Moved AI into a resizable terminal sidebar.
+- Improved terminal SFTP session isolation.
+- Optimized the SFTP toolbar and reused SFTP file controls.
+- Simplified API error type matching.
+- Unified settings page configuration card styles.
+- Improved settings page form alignment.
+- Improved keyword highlight switch alignment and label text.
+
 ## v1.0.4
 
 ### Added
