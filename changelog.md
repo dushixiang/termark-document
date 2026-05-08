@@ -7,6 +7,41 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.6
+
+### Added
+
+- Added support for opening the AI assistant in multiple sessions at the same time.
+- Added collapsible command snippet groups.
+- Added SFTP folder upload support.
+- CSV asset import now supports asset group fields.
+- Added ZMODEM file transfer support.
+- Added SSH keepalive latency display.
+- Added customizable terminal copy and paste shortcuts.
+
+### Fixed
+
+- Fixed an issue where Ctrl + Shift + V could paste twice on Windows.
+- Fixed long filename overflow in the SFTP delete confirmation dialog.
+- Fixed custom terminal theme JSON editor width constraints.
+- Fixed terminal scrollbar alignment on the right edge.
+- Fixed toast notifications overlapping the tab bar.
+- Fixed terminal tab bar scrolling and drag-region behavior.
+- Fixed terminal output preservation after reconnecting.
+
+### Changed
+
+- Improved the AI settings UI.
+- Improved the terminal font picker.
+- Optimized the default sidebar width.
+- Tightened AI command confirmation behavior.
+- Simplified AI command confirmation handling.
+- Switched to the assisted Windows installer.
+
+### Removed
+
+- Removed Linux packaging.
+
 ## v1.0.5
 
 ### Added
