@@ -7,6 +7,15 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.7
+
+### Fixed
+
+- Fixed terminal copy behavior so it only copies when text is selected.
+- Fixed the terminal latency overlay covering the batch execution button.
+- Fixed terminal cursor position after reconnecting.
+- Kept the AI tab WebSocket connection active when switching tabs.
+
 ## v1.0.6
 
 ### Added
