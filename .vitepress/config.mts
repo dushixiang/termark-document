@@ -23,7 +23,7 @@ export default defineConfig({
             themeConfig: {
                 logo,
                 nav: [
-                    {text: 'Docs', link: '/usage/'},
+                    {text: 'Docs', link: '/usage/sftp-cwd-tracking'},
                     {text: 'Changelog', link: '/changelog'}
                 ],
                 sidebar: {
@@ -31,7 +31,8 @@ export default defineConfig({
                         {
                             text: 'Documentation',
                             items: [
-                                {text: 'SFTP CWD Tracking', link: '/usage/sftp-cwd-tracking'}
+                                {text: 'SFTP CWD Tracking', link: '/usage/sftp-cwd-tracking'},
+                                {text: 'Data Storage Path', link: '/usage/data-storage-path'}
                             ]
                         }
                     ],
@@ -63,7 +64,7 @@ export default defineConfig({
             themeConfig: {
                 logo,
                 nav: [
-                    {text: '使用文档', link: '/zh/usage/'},
+                    {text: '使用文档', link: '/zh/usage/sftp-cwd-tracking'},
                     {text: '更新日志', link: '/zh/changelog'},
                     {text: '博客', link: '/zh/blog/wechat-promo-article'}
                 ],
@@ -72,7 +73,8 @@ export default defineConfig({
                         {
                             text: '使用文档',
                             items: [
-                                {text: 'SFTP 目录跟随配置', link: '/zh/usage/sftp-cwd-tracking'}
+                                {text: 'SFTP 目录跟随配置', link: '/zh/usage/sftp-cwd-tracking'},
+                                {text: '数据存储路径', link: '/zh/usage/data-storage-path'}
                             ]
                         }
                     ],
