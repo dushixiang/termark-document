@@ -7,6 +7,34 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.8
+
+### Added
+
+- Added license expiration time display.
+- Added support for downloading session recordings.
+
+### Fixed
+
+- Fixed terminal tab title and focus handling after connection failures.
+- Fixed SFTP workspace reconnection and transfer behavior.
+- Fixed terminal tab bar scrolling when many tabs are open.
+
+### Changed
+
+- Temporary connections now focus the IP input by default.
+- Moved the host remark field in the host dialog.
+- Disabled spellcheck for remark fields.
+- Terminal tabs now continue showing numbers above 9, use a single dropdown arrow when overflowed, and auto-scroll horizontally while dragging tabs near the edge.
+- Improved command snippet asset selection.
+- Improved the login flow and added login cancellation support.
+- Improved license information display.
+- Refactored the SFTP file browser.
+- Improved search result rendering.
+- Improved terminal keyword highlighting.
+- Improved session recording.
+- Local terminal paths and working directories no longer sync to other devices.
+
 ## v1.0.7
 
 ### Fixed
