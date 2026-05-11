@@ -7,6 +7,23 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.10
+
+### Added
+
+- Added iCloud and local directory sync.
+- Added support for configuring multiple NextTerminal environments.
+- NextTerminal login now supports access through WebSocket tunnels.
+- Added AI actions to the terminal context menu.
+- Added a recording status indicator in the terminal top-right corner.
+- Added a confirmation dialog when enabling the AI assistant.
+
+### Changed
+
+- Backend browser opening now uses the official library.
+- Improved reconnect messages.
+- Improved AI interaction.
+
 ## v1.0.8
 
 ### Added
