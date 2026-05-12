@@ -7,6 +7,26 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.11
+
+### Added
+
+- Added upstream access authentication for NextTerminal, including Basic Auth and mTLS.
+- Added support for switching AI models.
+- Local terminals now recognize file paths when files are dragged into the terminal.
+- Keyword highlight rules now support a remark field.
+- SSH connections now support additional host key algorithms for compatibility with legacy servers.
+- Added SSH pre-connect authentication and host key confirmation.
+
+### Fixed
+
+- Fixed automatic reconnect and normal-exit detection.
+- Fixed sync time updates when a sync operation makes no changes.
+- Fixed batch execution terminal layout so the number of terminals per row is limited.
+- Fixed an issue where switching tabs could hide the "open editor" button in SFTP.
+- Fixed an out-of-bounds issue when importing JSON keyword highlight rules.
+- Fixed terminal copy and paste by using the Electron clipboard.
+
 ## v1.0.10
 
 ### Added
