@@ -7,6 +7,34 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.12
+
+### Added
+
+- Added Codex support to the AI features.
+- Added support for deleting custom logos.
+- Added an expand-group menu to the asset tree.
+- Command snippets now support drag-and-drop sorting.
+- Keyword highlight rules now support drag-and-drop sorting.
+- Added log capture for backend startup failures.
+
+### Fixed
+
+- Fixed asset tree host icon alignment.
+- Fixed custom logo deletion during sync.
+- Fixed NextTerminal reconnecting after a normal exit.
+- Fixed terminal text selection so it can cover keyword highlights.
+- Fixed Chinese text encoding issues in some macOS environments.
+
+### Changed
+
+- Improved AI features.
+- Improved the AI command whitelist.
+- Confirmation dialogs now focus the confirm button by default.
+- Terminal fonts now use real virtual terminal rendering.
+- Disabled refresh to prevent accidental activation.
+- Improved log formatting.
+
 ## v1.0.11
 
 ### Added
