@@ -7,6 +7,38 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.13
+
+### Added
+
+- Added SSH keyboard-interactive authentication support.
+- Added NextTerminal upstream proxy settings.
+- Added an app mode switch to the sidebar.
+- Added a terminal theme copy action.
+- Added a copy IP action to context menus.
+- Added Alpine logo support and OS auto-detection.
+- Asset tree now supports Shift range selection and batch connection.
+- Copied SSH sessions now automatically open in the same directory.
+
+### Fixed
+
+- Fixed RSA credential key type support.
+- Fixed command snippet drag rectangle type guard handling.
+- Fixed invalid AI test behavior.
+
+### Changed
+
+- Local terminal tab titles now update automatically.
+- Local fonts are now excluded from sync.
+- Improved AI settings.
+- DeepSeek models now only allow disabled thinking.
+- Adjusted the keyword highlight rules layout.
+- Refactored the shortcuts settings layout.
+- Refactored the appearance sections in settings.
+- Global pages now follow the appearance terminal theme.
+- Terminal theme switching now syncs the global theme.
+- Aligned local asset toolbar buttons.
+
 ## v1.0.12
 
 ### Added
