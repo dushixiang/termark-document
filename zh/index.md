@@ -22,5 +22,5 @@ features:
     link: /zh/changelog
   - title: 博客
     details: 阅读 Termark 的产品介绍和使用场景。
-    link: /zh/blog/wechat-promo-article
+    link: /zh/blog/termark-ssh-terminal-workbench
 ---

@@ -67,7 +67,7 @@ export default defineConfig({
                 nav: [
                     {text: '使用文档', link: '/zh/usage/sftp-cwd-tracking'},
                     {text: '更新日志', link: '/zh/changelog'},
-                    {text: '博客', link: '/zh/blog/wechat-promo-article'}
+                    {text: '博客', link: '/zh/blog/termark-ssh-terminal-workbench'}
                 ],
                 sidebar: {
                     '/zh/usage/': [
@@ -92,6 +92,7 @@ export default defineConfig({
                         {
                             text: '博客',
                             items: [
+                                {text: '如果你经常连服务器，可以试试 Termark', link: '/zh/blog/termark-ssh-terminal-workbench'},
                                 {text: '我做了一个更顺手的 SSH 终端管理工具：Termark', link: '/zh/blog/wechat-promo-article'}
                             ]
                         }
