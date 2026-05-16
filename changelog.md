@@ -7,6 +7,33 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.14
+
+### Added
+
+- Added automatic update support.
+- Added app lock support.
+- Added AI conversation history management.
+- Added Claude Code AI Agent support.
+- AI command execution now supports interactive operations.
+- Added a paste selection action to the terminal context menu.
+- NextTerminal now supports custom request headers.
+- SFTP filenames now show a tooltip with the full name when truncated.
+
+### Fixed
+
+- Fixed AI chat state not being preserved after terminal reconnects.
+- Fixed terminal theme and global UI theme sync.
+- Fixed sync status messages that could be misleading before the first sync.
+- Fixed overly long path titles in tabs.
+- Fixed app lock state not refreshing when the window regains focus.
+
+### Changed
+
+- Improved the AI settings page.
+- Improved ACP copy.
+- Improved AI command execution output display.
+
 ## v1.0.13
 
 ### Added
