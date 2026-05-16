@@ -7,6 +7,23 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.15
+
+### Added
+
+- Added external CLI support, allowing Codex and Claude Code to query assets and execute commands.
+- Added a Linux release.
+
+### Fixed
+
+- Fixed an issue where the app could not exit from the locked state on Windows.
+- Fixed duplicate Electron instances.
+- Fixed the maximize window control icon.
+
+### Changed
+
+- Improved AI interactive operations.
+
 ## v1.0.14
 
 ### Added
