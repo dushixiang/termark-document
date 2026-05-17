@@ -24,7 +24,8 @@ export default defineConfig({
                 logo,
                 nav: [
                     {text: 'Docs', link: '/usage/sftp-cwd-tracking'},
-                    {text: 'Changelog', link: '/changelog'}
+                    {text: 'Changelog', link: '/changelog'},
+                    {text: 'Blog', link: '/blog/termark-ssh-terminal-workbench'}
                 ],
                 sidebar: {
                     '/usage/': [
@@ -42,6 +43,16 @@ export default defineConfig({
                             text: 'Release Notes',
                             items: [
                                 {text: 'Changelog', link: '/changelog'}
+                            ]
+                        }
+                    ],
+                    '/blog/': [
+                        {
+                            text: 'Blog',
+                            items: [
+                                {text: 'A More Convenient SSH Terminal Management Tool I Built: Termark', link: '/blog/termark-ssh-terminal-workbench'},
+                                {text: 'Termark, the SSH Terminal Tool That Feels Better to Use', link: '/blog/wechat-promo-article'},
+                                {text: 'Termark AI Assistant Design', link: '/blog/termark-ai-design'}
                             ]
                         }
                     ]
