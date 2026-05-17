@@ -7,6 +7,27 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.16
+
+### Added
+
+- Added built-in AI profiles.
+- NextTerminal settings now use cards.
+- The CLI now supports file upload and download.
+- Added a report bug button.
+
+### Fixed
+
+- Fixed AI settings test streaming.
+- Fixed the app lock close button.
+- Fixed the NextTerminal CLI source name.
+- Fixed external CLI settings copy.
+
+### Changed
+
+- Refactored external CLI skills.
+- Updated release packaging targets.
+
 ## v1.0.15
 
 ### Added
