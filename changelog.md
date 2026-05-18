@@ -7,6 +7,41 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.18
+
+### Added
+
+- The CLI now supports file upload and download.
+
+### Fixed
+
+- Fixed AI command execution timeouts.
+- Fixed focus conflicts between the AI assistant and the terminal.
+- Fixed focus handling for the host key accept button.
+- Fixed unclear active states for asset sources in dark mode.
+- Fixed node-pty executable permissions.
+- Fixed inconsistent built-in Agent tool call and tool result pairing.
+- Fixed Telnet sessions that produced no output and could reconnect repeatedly after disconnecting.
+- Fixed context errors after the Agent refused to execute a command.
+- Fixed cases where command execution could get stuck.
+- Fixed appearance initialization before the app lock is shown.
+- Fixed a crash that could happen when switching languages.
+
+### Changed
+
+- Improved the AI command execution flow.
+- Removed the Claude Code ACP adapter.
+- Upgraded Vite.
+- Changed the editor to load asynchronously.
+- Improved AI settings.
+- Improved SSH authentication failure messages.
+- Removed interactive AI command execution.
+- Improved Agent processing.
+- Removed AI output filtering.
+- Refactored terminal handling logic.
+- Improved PTY markers.
+- Improved focus handling between terminals and input fields.
+
 ## v1.0.16
 
 ### Added
