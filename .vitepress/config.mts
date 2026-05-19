@@ -34,7 +34,8 @@ export default defineConfig({
                             items: [
                                 {text: 'SFTP CWD Tracking', link: '/usage/sftp-cwd-tracking'},
                                 {text: 'Local Encryption and Data Recovery', link: '/usage/local-encryption'},
-                                {text: 'Data Storage Path', link: '/usage/data-storage-path'}
+                                {text: 'Data Storage Path', link: '/usage/data-storage-path'},
+                                {text: 'AI Agent Guide', link: '/usage/ai-agent'}
                             ]
                         }
                     ],
@@ -87,7 +88,8 @@ export default defineConfig({
                             items: [
                                 {text: 'SFTP 目录跟随配置', link: '/zh/usage/sftp-cwd-tracking'},
                                 {text: '本地加密与数据恢复说明', link: '/zh/usage/local-encryption'},
-                                {text: '数据存储路径', link: '/zh/usage/data-storage-path'}
+                                {text: '数据存储路径', link: '/zh/usage/data-storage-path'},
+                                {text: 'AI Agent 使用说明', link: '/zh/usage/ai-agent'}
                             ]
                         }
                     ],

@@ -6,7 +6,7 @@ outline: deep
 
 ## 模型思考模式错误
 
-如果使用 AI Agent 时看到类似下面的错误：
+如果使用 DeepSeek/小米 的模型时看到类似下面的错误：
 
 ```text
 [400] The 'reasoning_content' in the thinking mode must be passed back to the API.
@@ -21,6 +21,8 @@ outline: deep
 - 如果当前模型强制开启思考模式，请切换到支持关闭思考的模型。
 
 禁用思考后，AI Agent 仍然可以正常对话、分析终端输出和执行受控命令。只是模型不会返回单独的思考内容，Termark 也不会处理大模型的思考过程。
+
+![ai-ds-disable-thinking.png](images/ai-ds-disable-thinking.png)
 
 ## 为什么需要禁用思考
 
