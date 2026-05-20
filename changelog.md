@@ -7,6 +7,35 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.19
+
+### Added
+
+- Added collapsible CPU core metrics.
+- Added manual host operating system detection, with optional automatic detection.
+- Added terminal background image and background opacity settings.
+- The AI assistant now supports switching models.
+- Added built-in default terminal fonts: Meslo on macOS and Cascadia Code on Windows.
+- Sync settings now support showing passwords.
+- Added recovery mode for cases where the encryption key is missing.
+
+### Fixed
+
+- Fixed terminal metrics not being isolated by session.
+- Fixed the SFTP transfer list being too tall, and added Enter confirmation when creating folders.
+- Fixed serial connection parameters and asset tree tooltip text.
+- Fixed settings page internationalization and system language following.
+- Fixed false conflict prompts when syncing on the same device.
+- Fixed inaccurate memory statistics when Available is empty by falling back to Free.
+- Fixed occasional AI command hangs and switched to streaming output parsing.
+- Fixed sync configuration default options and password field layout.
+
+### Changed
+
+- Improved the AI command whitelist.
+- Updated the Agent prompts.
+- Removed authorization restrictions for SFTP batch downloads and image preview.
+
 ## v1.0.18
 
 ### Added
