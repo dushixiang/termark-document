@@ -7,6 +7,20 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.20
+
+### Fixed
+
+- Fixed settings API splitting behavior and prevented the external CLI switch from being reset.
+- Fixed duplicate rendering in the terminal font preview.
+- Fixed blurry terminal fonts after switching to a light theme.
+
+### Changed
+
+- Adjusted opacity percentage display.
+- Replaced the color picker on the settings page.
+- Improved AI panel input queue interactions.
+
 ## v1.0.19
 
 ### Added
