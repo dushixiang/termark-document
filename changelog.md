@@ -7,6 +7,32 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.21
+
+### Added
+
+- Added a conflict resolution dialog when uploading files with the same name.
+- Added asset ID copy support and unified CLI asset IDs.
+
+### Fixed
+
+- Fixed ZMODEM getting stuck when a file with the same name already exists.
+- Fixed pasted terminal content being highlighted in black.
+- Fixed the terminal Ctrl+R history search shortcut.
+- Fixed the missing second confirmation when closing the window on Windows.
+
+### Changed
+
+- Appearance settings no longer follow cloud sync.
+- Changed the default AI command execution timeout to 30 seconds.
+- Unified the add and edit parameters for NextTerminal instances.
+- Adjusted the lrzsz location and added ZMODEM internationalization.
+- Adjusted the light terminal theme colors.
+- Recognized Ctrl-C cancellations for AI terminal commands and added cancellation guidance.
+- Adjusted the AI command echo color to the #218bff blue palette.
+- Improved SFTP file toolbar buttons.
+- SSH terminal sessions now automatically inject encoding environment variables.
+
 ## v1.0.20
 
 ### Fixed
