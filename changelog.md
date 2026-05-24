@@ -7,6 +7,16 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.23
+
+### Fixed
+
+- Fixed forms being reset too frequently.
+
+### Changed
+
+- Improved cloud sync logic.
+
 ## v1.0.22
 
 ### Added
