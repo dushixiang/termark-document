@@ -7,6 +7,22 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.22
+
+### Added
+
+- Added a main page background toggle and consolidated transparent background behavior.
+- Portable mode now supports manually configuring the encryption password.
+
+### Changed
+
+- Keyword highlighting in terminals now only uses text color, with settings migration support.
+- Disabled the scrollbar in the SFTP toolbar.
+- Adjusted the NextTerminal instance settings interface.
+- Adjusted automatic credential naming for NextTerminal.
+- Improved terminal code structure.
+- Refactored update check state management.
+
 ## v1.0.21
 
 ### Added
