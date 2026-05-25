@@ -7,6 +7,18 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.25
+
+### Fixed
+
+- Fixed local encrypted credential reads for sync configuration.
+- Fixed terminal display corruption.
+
+### Changed
+
+- Improved terminal selection copy behavior.
+- Adjusted the split-pane layout on the batch execution page.
+
 ## v1.0.24
 
 ### Added
