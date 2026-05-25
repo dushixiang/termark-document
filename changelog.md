@@ -7,6 +7,26 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.24
+
+### Added
+
+- Credential mode now supports overriding the username.
+
+### Fixed
+
+- Fixed password retry failures in quick connections.
+- Fixed incorrect YAML indentation when pasting into Vim.
+- Fixed terminal display corruption when switching split panes.
+
+### Changed
+
+- Frontend data now refreshes after a successful sync.
+- Improved asset selection and command dispatch for split terminals.
+- Optimized and refactored the settings page.
+- Reused SSH configuration construction logic.
+- Configuration changes now sync through backend events.
+
 ## v1.0.23
 
 ### Fixed
