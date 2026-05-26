@@ -41,4 +41,4 @@ tail -n 100 /var/log/nginx/error.log
 
 ![prompt.png](images4/prompt.png)
 
-这种规则看起来很细，但放到真实产品里就很必要。
+这种规则看起来很蠢，但放到真实产品里就很必要。
