@@ -7,6 +7,20 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.26
+
+### Fixed
+
+- Fixed AI getting stuck on multiline commands.
+
+### Changed
+
+- Adjusted the priority rules for overlapping keyword highlights.
+- Adjusted split-pane title bar transparency.
+- Improved AI tool calls and display.
+- Optimized SFTP file upload speed, improving it by 10x.
+- Refactored keyboard shortcuts.
+
 ## v1.0.25
 
 ### Fixed
