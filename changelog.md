@@ -7,6 +7,28 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.27
+
+### Added
+
+- SSH key upload now supports passphrases and `.ppk` keys.
+- Added accelerated SFTP uploads.
+
+### Fixed
+
+- Fixed SFTP uploads and downloads not being cancellable.
+- Fixed directory-follow configuration detection failures in fish.
+- Fixed missing icons in Linux packages.
+
+### Changed
+
+- Removed terminal keyword highlight rule IDs.
+- Changed keyboard shortcuts to use independent event dispatch.
+- Unified portable-version local data key logic.
+- Removed the split-pane button from the tab context menu.
+- Changed the default terminal scrollback to 1000 lines.
+- Adjusted tab context menu actions.
+
 ## v1.0.26
 
 ### Fixed
