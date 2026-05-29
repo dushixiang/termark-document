@@ -7,6 +7,29 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.28
+
+### Added
+
+- Added copy buttons to AI conversation messages.
+- Port forwarding asset selection now uses the asset tree and supports NextTerminal assets.
+- SSH sessions now support drag-and-drop file uploads through `rz`.
+- Port forwarding now supports HTTP and SOCKS5 proxies.
+- Added feedback for modal close buttons.
+
+### Fixed
+
+- Fixed the SFTP upload speed regression caused by cancellation support.
+- Fixed AI output text copying being intercepted by shortcuts.
+- Fixed garbled Chinese filenames during `rz` uploads.
+- Fixed Windows CLI installation to PATH.
+
+### Changed
+
+- Adjusted the default sidebar width.
+- Adjusted the default and minimum window sizes.
+- Updated to the new logo.
+
 ## v1.0.27
 
 ### Added
