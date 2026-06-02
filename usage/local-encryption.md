@@ -26,6 +26,10 @@ On first launch of a regular installed build, Termark generates a random 32-byte
 
 The Windows portable build uses a separate portable key mode. On first launch, Termark asks you to set a local encryption passphrase and uses Argon2id to derive a 32-byte local data key from that passphrase and a random salt. The database only stores non-secret KDF parameters, including the version, KDF name, salt, time, memory, and threads. It does not store your plaintext passphrase or plaintext local data key.
 
+<div class="local-encryption-summary">
+  <p><strong>In short:</strong> the portable build asks you to enter a local encryption key and uses it to encrypt the sensitive data stored on this device. After a successful unlock, Termark caches the derived encryption key in the current computer's system keychain. If you move the portable build to another computer, the new computer's keychain will not have that cache, so Termark will show a prompt asking you to enter the local encryption key again before it can decrypt the data.</p>
+</div>
+
 After the portable build is set up or unlocked successfully, Termark caches the derived local data key in the system keychain. It uses the same service name, `termark.app`, and the entry name `portable-local-data-key`. This entry is separate from the regular installed build's `local-data-key`, so the portable build does not overwrite the installed build's local data key.
 
 When the portable build starts, it first tries to read the `portable-local-data-key` cache. If the cache is missing, inaccessible, or fails validation, Termark asks you to enter the local encryption passphrase again. With the correct passphrase, Termark derives the local data key again from the KDF parameters stored in the database and caches it in the system keychain. This means that when migrating to a new device, you do not need to carry over the old device's `portable-local-data-key` cache, but you must keep the full data directory, remember the local encryption passphrase, and ensure the current system keychain is accessible.

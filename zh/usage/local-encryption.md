@@ -26,6 +26,10 @@ Termark 会在本机保存主机、凭证、同步配置等数据。为了避免
 
 Windows 便携版使用独立的 portable 密钥模式：Termark 首次启动时会要求你设置一个本地加密口令，并使用 Argon2id 从该口令和随机 salt 派生出 32 字节本地数据密钥。数据库中只保存非秘密的 KDF 参数，包括版本、KDF 名称、salt、time、memory 和 threads；不会保存你的明文口令，也不会保存明文的本地数据密钥。
 
+<div class="local-encryption-summary">
+  <p><strong>简单来说：</strong>便携版会让你自己输入一个本地加密 key，用它来加密本机保存的敏感数据。成功解锁后，Termark 会把派生出的加密 key 缓存在当前电脑的系统 keychain（钥匙串）中；当你把便携版移动到另一台电脑时，新电脑的钥匙串里找不到这个缓存，Termark 就会弹窗要求你重新输入本地加密 key 来解密数据。</p>
+</div>
+
 便携版成功设置或解锁后，会把派生出的本地数据密钥缓存到系统 keychain 中，服务名同样是 `termark.app`，条目名是 `portable-local-data-key`。这个条目和普通安装版的 `local-data-key` 相互独立，避免便携版覆盖安装版的本地数据密钥。
 
 便携版启动时会优先尝试读取 `portable-local-data-key` 缓存；如果缓存不存在、不可访问，或者校验失败，Termark 会要求你重新输入本地加密口令。输入正确后，Termark 会根据数据库中保存的 KDF 参数重新派生本地数据密钥，并再次缓存到系统 keychain。也就是说，迁移到新设备时不需要携带旧设备上的 `portable-local-data-key` 缓存，但必须保留完整数据目录、记住本地加密口令，并确保当前系统 keychain 可访问。
