@@ -7,6 +7,48 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.29
+
+### Added
+
+- Added the CLI directory sync command and support for searching the asset list by ID.
+- Added quick local private key import.
+- SSH asset import previews now support editing and credential binding, and jump hosts can be selected with the asset selector.
+- SSH session cloning now reuses the logged-in connection.
+- Interactive authentication and manually entered username/password connections can now save connection information.
+- Added host-level SFTP directory-follow policy.
+- Added quick SFTP deletion.
+- Changing the local encryption key is now supported and takes effect after restart.
+- AI command execution mode can now be switched per host or temporarily, and AI commands now support background execution.
+- Added support for DeepSeek and Qwen reasoning modes.
+- Added a help documentation link on the settings page.
+
+### Fixed
+
+- Fixed focus being lost after entering an incorrect app lock password.
+- Fixed split terminals still showing a blue border after losing focus.
+- Fixed the terminal automatic reconnect attempt limit not taking effect.
+- Fixed terminal shortcuts not working on the batch execution page.
+- Fixed custom shortcuts not taking effect after restart.
+- Fixed abnormal scrollbars in empty SFTP lists.
+
+### Changed
+
+- Improved terminal pane shortcuts and batch execution menu states.
+- Refactored `exec` command argument passing.
+- Online editing is now a free feature.
+- Adjusted the credential modal width, made credential usernames optional, and disallowed duplicate credential names when adding or editing credentials.
+- Refactored the SSH asset import preview flow and adjusted the import button position.
+- Adjusted the default dropdown menu placement.
+- Window fullscreen and maximized states are now remembered.
+- Optimized CLI transfer progress display with a progress bar library and improved transfer progress synchronization.
+- Refactored the terminal sidebar lifecycle and simplified the local asset host edit modal.
+- Improved terminal Chinese font fallback.
+- Improved AI panel command execution result display and refactored built-in AI reasoning protocol configuration.
+- Unified SFTP configuration styling in host advanced settings and removed the SFTP sudo privilege escalation mode parameter.
+- Refactored the SFTP panel to reuse list query state and simplified SFTP mounting logic in the terminal sidebar.
+- Unified icons.
+
 ## v1.0.28
 
 ### Added
