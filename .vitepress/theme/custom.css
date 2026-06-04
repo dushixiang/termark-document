@@ -1,0 +1,32 @@
+.local-encryption-summary {
+  position: relative;
+  margin: 24px 0;
+  padding: 18px 20px 18px 22px;
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 26%, var(--vp-c-divider));
+  border-left: 5px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--vp-c-brand-1) 10%, transparent), transparent 58%),
+    var(--vp-c-bg-soft);
+  box-shadow: 0 12px 28px color-mix(in srgb, var(--vp-c-brand-1) 10%, transparent);
+}
+
+.local-encryption-summary p {
+  margin: 0;
+  color: var(--vp-c-text-1);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.local-encryption-summary strong {
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .local-encryption-summary {
+    margin: 20px 0;
+    padding: 16px 16px 16px 18px;
+    border-radius: 8px;
+  }
+}
