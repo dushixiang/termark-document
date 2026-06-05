@@ -53,6 +53,7 @@ export default defineConfig({
                             items: [
                                 {text: 'A More Convenient SSH Terminal Management Tool I Built: Termark', link: '/blog/termark-ssh-terminal-workbench'},
                                 {text: 'Termark, the SSH Terminal Tool That Feels Better to Use', link: '/blog/wechat-promo-article'},
+                                {text: 'Independently Building a Desktop SSH Tool', link: '/blog/desktop-ssh-tool-indie-dev'},
                                 {text: 'Termark AI Assistant Design', link: '/blog/termark-ai-design'},
                                 {text: 'The Curse of Knowledge in Large Models', link: '/blog/the-curse-of-knowledge-in-ai'}
                             ]
@@ -108,6 +109,7 @@ export default defineConfig({
                             items: [
                                 {text: '如果你经常连服务器，可以试试 Termark', link: '/zh/blog/termark-ssh-terminal-workbench'},
                                 {text: '我做了一个更顺手的 SSH 终端管理工具：Termark', link: '/zh/blog/wechat-promo-article'},
+                                {text: '独立开发一个桌面 SSH 工具：最麻烦的不是写代码', link: '/zh/blog/desktop-ssh-tool-indie-dev'},
                                 {text: 'Termark AI 助手设计：我为什么没有做一个"全自动运维 Agent', link: '/zh/blog/termark-ai-design'},
                                 {text: '大模型里的“知识的诅咒”', link: '/zh/blog/the-curse-of-knowledge-in-ai'}
                             ]
