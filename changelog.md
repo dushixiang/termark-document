@@ -7,6 +7,40 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.30
+
+### Added
+
+- Built-in AI now supports HTTP proxy configuration.
+- Added local client asset import, with support for importing assets from Tabby, Termius, MobaXterm, and Xshell.
+- CSV imports can now bind to existing credentials.
+- Added terminal OSC 52 remote copy support.
+- Added an SFTP entry to the asset tree context menu.
+- CLI now supports searching NextTerminal assets by ID.
+
+### Fixed
+
+- Fixed the macOS fullscreen button issue and removed fullscreen state persistence.
+- Fixed the AI input box stealing focus when a terminal reconnects.
+- Fixed the AI panel automatically focusing the input box when activated.
+- Fixed shortcut configuration loading during startup.
+- Fixed AI context usage display.
+- Fixed the AI input box height.
+- Fixed terminal content being lost after splitting panes.
+- Fixed modal close button clicks not working.
+
+### Changed
+
+- Close-tab confirmation is now enabled by default, and the port forwarding entry and close-tab prompt were adjusted.
+- Adjusted the default close-tab shortcut on Windows.
+- Moved help documentation and report bug entries to version settings.
+- Adjusted the AI model switch position, AI execution mode switch styling, and segmented icon switch styling.
+- Split the credential creation button and added reference checks when deleting credentials.
+- Frontend base64 encoding and decoding now consistently use `js-base64`.
+- Refactored the terminal session lifecycle and serial port close logic, and terminal session creation now fills the host ID.
+- Fixed the header and footer layout in modals.
+- Improved the local client asset import flow and compatibility.
+
 ## v1.0.29
 
 ### Added
