@@ -7,6 +7,26 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.31
+
+### Added
+
+- Added support for SFTP resume and retry operations.
+- Added support for selecting existing credentials during terminal pre-connection.
+
+### Fixed
+
+- Fixed scrolling issues in the NextTerminal configuration modal and pinned the footer action buttons.
+- Fixed Termius data import issues and removed Tabby data import.
+
+### Changed
+
+- Port forwarding rules are now returned in descending order by creation time.
+- Instance files now sync according to the external CLI switch.
+- Merged the local client asset import path selection entry points.
+- Unified icon button component styling.
+- Terminal connections now stay connected while the app is locked.
+
 ## v1.0.30
 
 ### Added
