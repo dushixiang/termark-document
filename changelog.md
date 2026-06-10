@@ -7,6 +7,29 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.32
+
+### Added
+
+- Added the official AI channel.
+- Added detailed AI logs.
+- Import preview tables now support field sorting.
+- Local assets now support multi-select drag-and-drop moves.
+
+### Fixed
+
+- Fixed garbled Chinese text when importing from MobaXterm.
+- Fixed the app lock clearing the sidebar cache.
+- Fixed too many tabs affecting sidebar drag-and-drop.
+- Fixed AI output tables where the scrollbar could not be clicked and dragged.
+- Fixed SSH environment variable settings getting stuck.
+
+### Changed
+
+- Unified the batch execution command bar and added a Ctrl+C button.
+- Optimized the logo.
+- Adapted the free account status display.
+
 ## v1.0.31
 
 ### Added
