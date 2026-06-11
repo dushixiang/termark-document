@@ -8,11 +8,9 @@ Termark 的数据（会话配置、日志等）默认存储在以下位置：
 
 | 平台 | 路径 |
 |------|------|
-| Windows | `C:\Users\<用户>\AppData\Roaming\Termark\backend` |
+| Windows | `%AppData%\Termark\backend` |
 | macOS | `~/Library/Application Support/Termark/backend` |
 | Windows 便携版 | 当前文件夹下的 `data` 目录 |
-
-其中 `<用户>` 替换为你的 Windows 用户名。
 
 ## 便携版说明
 

@@ -8,11 +8,9 @@ Termark stores its data (session configurations, logs, etc.) in the following lo
 
 | Platform | Path |
 |----------|------|
-| Windows | `C:\Users\<user>\AppData\Roaming\Termark\backend` |
+| Windows | `%AppData%\Termark\backend` |
 | macOS | `~/Library/Application Support/Termark/backend` |
 | Windows Portable | `data` directory under the current folder |
-
-Replace `<user>` with your Windows username.
 
 ## Portable Edition
 
