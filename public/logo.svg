@@ -1,17 +1,34 @@
-<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
     <!-- 背景 -->
-    <rect width="256" height="256" rx="48" fill="#0F172A"/>
+    <rect width="1024" height="1024" fill="#303031" rx="190"/>
 
-    <!-- T（等粗结构） -->
-    <g transform="translate(128 128) scale(0.80) rotate(-8) translate(-128 -128)" fill="#38BDF8">
-
-        <!-- 横 -->
-        <rect x="32" y="64" width="192" height="36"/>
-
-        <!-- 竖（与横等粗） -->
-        <rect x="110" y="64" width="36" height="160"/>
-
+    <!-- Logo 放大 140% -->
+    <g transform="translate(512 544) scale(1.50) translate(-512 -512)">
+        <path
+                fill="#e6edf3"
+                d="
+            M345 319
+            Q342 319 340 322
+            L290 412
+            Q287 418 294 418
+            L479 418
+            Q484 418 489 415
+            L548 378
+            L548 397
+            L463 449
+            Q459 452 459 457
+            L459 700
+            Q459 707 465 702
+            L560 624
+            Q563 621 563 616
+            L563 419
+            L677 419
+            Q683 419 686 414
+            L736 324
+            Q739 319 732 319
+            Z
+            "
+        />
     </g>
 
 </svg>
