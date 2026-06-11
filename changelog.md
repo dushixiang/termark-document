@@ -7,6 +7,21 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.33
+
+### Added
+
+- Terminal login credentials can now be auto-filled.
+
+### Fixed
+
+- Added compatibility with Xiaomi LLM APIs and fixed the AI assistant error `Unexpected end of JSON input`.
+- Fixed the terminal losing focus after pasting from the context menu.
+
+### Changed
+
+- Adjusted the default official AI model and context window.
+
 ## v1.0.32
 
 ### Added
