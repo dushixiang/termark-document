@@ -7,6 +7,24 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.34
+
+### Added
+
+- Added account badge information.
+
+### Fixed
+
+- Fixed the top window area not being draggable after opening a tab.
+- Fixed abnormal input box styling when the AI history modal contains many conversations.
+- Fixed AI history conversation continuation context issues.
+- Fixed occasional terminal focus loss after pasting from the context menu.
+
+### Changed
+
+- Relaxed terminal password prompt recognition rules.
+- Improved the Windows maximize and restore icons, and adjusted the button hover background color.
+
 ## v1.0.33
 
 ### Added
