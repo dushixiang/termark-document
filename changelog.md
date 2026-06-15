@@ -7,6 +7,30 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.35
+
+### Added
+
+- Added support for accessing bastion host RDP assets.
+- Added a cloud sync restore button to the tab bar and displayed sync status.
+- Added support for detecting SFTP symlink directories and adjusted the symlink icon.
+- Added support for pausing SFTP transfers and reusing the same record when resuming.
+
+### Fixed
+
+- Fixed invalid filenames when downloading files over SFTP on Windows.
+- Fixed the local asset host port input not being clearable.
+- Fixed file upload and download progress not being displayed in SFTP.
+- Fixed the NextTerminal list API returning `null` for empty data.
+- Fixed SFTP transfer progress not refreshing after the app was locked.
+
+### Changed
+
+- Improved the bastion host connection copy.
+- Refactored the SFTP transfer list and unified the pause/resume interaction.
+- Optimized terminal password prompt recognition logic.
+- Adjusted error display logic during the terminal pre-connection state.
+
 ## v1.0.34
 
 ### Added
