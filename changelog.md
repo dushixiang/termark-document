@@ -7,6 +7,32 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.37 (2026-06-19)
+
+### Added
+
+- Added a remote Docker management panel.
+- Tabs can now be renamed.
+- Added a setting for copy success feedback.
+- Host environment variables now support quick tag insertion.
+- SFTP workspaces now support directory sync and accelerated downloads.
+- Port forwarding rules can now start automatically on launch.
+- Added FTP and SFTP sync configuration.
+- Cloud sync now supports configurable automatic sync intervals.
+- Keyword highlight rules no longer have a quantity limit.
+
+### Changed
+
+- Removed default encoding environment variable injection for SSH sessions.
+- Removed the sync button from the tab bar.
+- Unified switch styles on the settings page.
+- Split advanced settings in the local host modal.
+- Terminal theme sync now only synchronizes the background color.
+- Adjusted the minimum window size to support half-screen layouts.
+- Optimized directory sync to skip unchanged files.
+- Removed the accelerated upload recommendation for folders.
+- Removed the SFTP entry from the sidebar and added support for opening multiple SFTP panels.
+
 ## v1.0.35
 
 ### Added
