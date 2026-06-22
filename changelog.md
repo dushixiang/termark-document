@@ -7,6 +7,28 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.38 (2026-06-22)
+
+### Added
+
+- Added support for hiding terminal tools in restricted SSH environments.
+- Added support for AI command execution in restricted shells.
+
+### Fixed
+
+- Fixed Shift+Enter newline input in the terminal.
+- Fixed terminal focus loss after paste or copy operations on Windows.
+
+### Changed
+
+- Refactored terminal theme management and simplified theme background-following behavior.
+- Removed resumed byte display from the transfer list.
+- Unified SFTP toolbar download capabilities and simplified the download button.
+- Unified single-input dialog styles.
+- Improved the SFTP permissions modal layout.
+- Hid the Docker image acceleration button.
+- Improved remote Docker command compatibility.
+
 ## v1.0.37 (2026-06-19)
 
 ### Added
