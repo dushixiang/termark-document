@@ -7,6 +7,32 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.39 (2026-06-25)
+
+### Added
+
+- Added terminal tmux management.
+- Local terminals now support PowerShell 7 and WSL.
+- Added SSH capability configuration.
+
+### Fixed
+
+- Fixed abnormal remote file permissions after sync.
+- Fixed inconsistent file verification after pausing and resuming transfers.
+- Fixed local terminal path detection on Windows.
+- Fixed tmux display issues caused by terminal size synchronization.
+- Fixed the context menu stealing focus after right-click paste in the terminal.
+
+### Changed
+
+- Adjusted Docker resource action button states.
+- Split main page background configuration for light and dark modes.
+- Added a common icon button and improved terminal sidebar hints.
+- Improved local terminal path settings.
+- Improved sync status check time display.
+- Improved AI tool call content display.
+- Improved terminal settings font selector rendering.
+
 ## v1.0.38 (2026-06-22)
 
 ### Added
