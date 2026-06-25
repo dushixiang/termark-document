@@ -7,6 +7,22 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.40 (2026-06-25)
+
+### Added
+
+- Added a test connection feature to the local host modal.
+
+### Fixed
+
+- Fixed window close behavior in macOS fullscreen mode.
+- Fixed lag on the terminal settings page on Windows.
+- Fixed the error reported when no socket is found during the first tmux detection.
+
+### Changed
+
+- Refactored the implementation and unified segmented selector styles across multiple places.
+
 ## v1.0.39 (2026-06-25)
 
 ### Added
