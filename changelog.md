@@ -7,6 +7,28 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.41 (2026-06-28)
+
+### Added
+
+- Added the global AI assistant.
+- Added host-level AI command execution policy configuration.
+- Added support for opening the containing folder after a file download completes.
+- Added support for pruning unused Docker images.
+- Added support for NextTerminal asset terminal watermarks.
+
+### Fixed
+
+- Fixed recursive default value handling for the Windows local terminal `pwsh`.
+- Fixed tmux window and cursor misalignment caused by terminal resize updates being lost while in use.
+
+### Changed
+
+- Improved the window behavior when using the close-tab shortcut again in an empty window by minimizing the window.
+- Simplified Windows shell detection.
+- Improved the AI command execution policy.
+- Enhanced NextTerminal WebSocket proxy error details.
+
 ## v1.0.40 (2026-06-25)
 
 ### Added
