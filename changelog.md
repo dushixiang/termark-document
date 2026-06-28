@@ -7,6 +7,12 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.42 (2026-06-28)
+
+### Fixed
+
+- Fixed terminal blank screens caused by frequent WebGL context destruction and recreation.
+
 ## v1.0.41 (2026-06-28)
 
 ### Added
