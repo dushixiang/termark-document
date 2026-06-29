@@ -7,6 +7,24 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.43 (2026-06-29)
+
+### Added
+
+- Global AI `@` mentions can now show all machines.
+- Global AI `@` mentions now support selecting machines by group.
+
+### Fixed
+
+- Fixed the sync password verification and modification flow.
+- Fixed overlap in the bottom action area of the AI input box.
+
+### Changed
+
+- Global AI `@` mentions can now only select machines with AI capabilities enabled.
+- Switched to the new download update URL.
+- Removed the terminal WebGL renderer.
+
 ## v1.0.42 (2026-06-28)
 
 ### Fixed
