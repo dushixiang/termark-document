@@ -22,7 +22,7 @@ description: Termark 版本更新记录。
 - AI 助手支持全自动执行策略。
 - 文件下载完成后支持打开所在文件夹。
 - 支持 Docker 清理未使用镜像。
-- 支持 NextTerminal 资产终端水印。
+- 支持 NextTerminal 资产终端水印（NextTerminal 版本 v3.4.1 支持）。
 
 ### 修复
 
