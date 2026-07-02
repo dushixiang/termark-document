@@ -7,6 +7,33 @@ description: Termark release notes and product updates.
 
 This page records Termark product updates, bug fixes, and behavior changes.
 
+## v1.0.45 (2026-07-02)
+
+### Added
+
+- Added an Authorization Center entry to the account menu in Settings.
+- Added the OpenAI-Response provider type.
+
+### Fixed
+
+- Preloaded terminal fonts to avoid abnormal spacing on first open.
+- Fixed an issue with copying IP addresses from the terminal menu.
+- Fixed line wrapping in the cloud sync interval description.
+- Fixed the opaque background on the global AI page.
+
+### Changed
+
+- Adjusted the terminal menu.
+- Removed the feature for opening a new terminal by reusing an SSH connection.
+- Improved collapsed-state detection for the top sidebar menu.
+- Limited AI command output length while preserving the beginning and end.
+- Improved theme background following and interactive state colors.
+- Improved asset tree interaction states and follow-mode details.
+- Improved interaction details in the top bar and terminal sidebar.
+- Improved theme following and interaction hierarchy on the settings page.
+- Improved terminal icon display in the tab bar.
+- Improved the default theme colors.
+
 ## v1.0.43 (2026-06-29)
 
 ### Added
